@@ -1,0 +1,159 @@
+
+
+/*.happy-monkey-regular {
+    font-family: "Happy Monkey", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.mountains-of-christmas-regular{
+    font-family: "Mountains of Christmas", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.mountains-of-christmas-bold {
+    font-family: "Mountains of Christmas", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+.gotu-regular {
+    font-family: "Gotu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+[class*="col"]  {
+        float: left;
+    /* padding: 15px; */
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#ginger-bread-recipe {
+    background-image:url(../images/white.jpg);
+    color: white;
+    width: 100%; /* Adjust width as needed */
+    height: auto; /* Keeps aspect ratio */
+    font-weight: bolder;
+    object-fit: fill; /* Options: contain, cover, fill, none, scale-down */
+  }
+  body{
+    color: yellow;
+    font-family: "Mountains of christmas", serif;
+}
+h1{
+    color: darkgreen;
+    font-family: "Mountains of christmas", serif;
+    font-weight: 800;
+    font-size: 40px;
+    
+}
+
+
+
+/*<h1>Christmas Gingerbread House</h1>
+<h2>Gingerbread House</h2>*/
+header{
+    text-shadow: 3px 3px 3px #E6E8FA;
+    color: #DFB722;
+    font-family: "Mountains of Christmas", serif;
+
+}
+.main{
+    display: flex;
+    flex: 1;
+}
+h2{
+    text-shadow: 3px 3px 3px #E6E8FA;
+    color: #DFB722;
+    font-family: "Mountains of Christmas", serif;
+
+}
+
+
+/*</p>
+    <figure>
+        <img src="images/GingerBread_GingerBread_House_2.jpg" style="width:250px;height:250px;" alt="Picture of a Gingerbread House">
+        <figcaption>
+            Photo by: <a href="https://www.flickr.com/photos/scottfidd/15872545109">Scott Fiddelke</a>,
+            CC BY-NC-SA 2.0 via <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">Creative Commons</a>
+        </figcaption>
+    </figure>*/
+source{
+    text-shadow: 3px 3px 3px  #E6E8FA;
+    color: #CD7F32;
+    font-family: "Happy Monkey", system-ui;
+
+
+}
+figcaption{
+    text-shadow: 3px 3px 3px  #E6E8FA;
+    color: #cd7f32;
+    font-family: "Mountains of Christmas", serif;
+
+}
+
+/*Conversion*/
+h3{
+    text-shadow: #E6E8FA;
+    color: #00008b;
+    font-family: "Happy Monkey", system-ui;
+
+}
+
+/*Ingredients*/
+h4{
+    text-shadow: #E6E8FA;
+    color: #00008b;
+    font-family: "Happy Monkey", system-ui;
+
+}
+h5{
+    color: #FF0000;
+    font-family: "Happy Monkey", system-ui;
+
+}
+p{
+    color: purple;
+    font-family: "Gotu", sans-serif;
+
+}
+
+ol,li,ul{
+    text-shadow: 3px 3px 3px  #E6E8FA;
+    color: #CD7F32;
+    font-family: "Happy Monkey", system-ui;
+    font-weight: normal;
+
+
+}
+span{
+    text-shadow: 3px 3px 3px #E6E8FA;
+    color: #DFB722;
+    font-family: "Happy Monkey", system-ui, serif;
+
+}
+fieldset{
+    color: purple;
+    font-family: "Gotu", sans-serif;
+
+}
+
+@media all and (max-width: 550px){
+    .main {
+        flex-direction: column;
+    }
+    main {
+        padding: 5em 0 5em;
+    }
+}
